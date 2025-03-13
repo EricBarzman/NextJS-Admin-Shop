@@ -1,7 +1,7 @@
 import { getCategoriesWithProducts } from '@/actions/categories';
 
 export default async function Products() {
-  const categories = await getCategoriesWithProducts();
+  // const categories = await getCategoriesWithProducts();
   // const productsWithCategories = await getProductsWithCategories();
 
   return (
